@@ -49,20 +49,33 @@ ul{
 .first-screen{
    
 } 
-.first-screen-head  {
+.first-screen_head  {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.first-screen_title{
     color: #241E22;
     font-size: 54px;
     font-weight: 600;
-    margin: 200px 0 0 200px;
-
+   
 }
-.first-screen-text{
+.first-screen_description {
     color: #373737;
     font-size: 24px;
     max-width: 600px;
-    margin-left: 200px;
-
 }
+.first-screen img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 400px;
+    margin: 0 0 0 500px;
+    padding-top: 150px;
+}
+
 @media (max-width: 1200px) {
     .header{
         width: 80vw;
