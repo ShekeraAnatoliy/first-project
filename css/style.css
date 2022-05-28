@@ -8,11 +8,12 @@ body {
 .container {
 	max-width: 1280px;
 	margin: auto;
+	background-color: aqua;
 }
 .header {
 	height: 80px;
 	flex: 1 1 auto;
-	padding: 25px 0;
+	padding: 25px 44px;
 	justify-content: space-between;
 	display: flex;
 	align-items: center;
@@ -30,4 +31,39 @@ body {
 }
 .header__menu-link {
 	color: #2d2d2d;
+}
+
+.preview {
+	height: 720px;
+	display: flex;
+	justify-content: space-between;
+	padding: 93px 114px 78px 100px;
+}
+.preview__text {
+	display: flex;
+	flex-direction: column;
+}
+.preview__before {
+	font-size: 20px;
+	font-weight: 600;
+	padding: 72px 0 46px 0;
+}
+h1 {
+	font-weight: 600;
+	font-size: 100px;
+	max-height: 204px;
+	max-width: 464px;
+	/*display: flex;
+	gap: 50px;*/
+}
+.preview__after {
+	font-weight: 400;
+	font-size: 17px;
+	padding: 50px 0 92px 0;
+	max-height: 54px;
+	max-width: 420px;
+}
+.preview__img {
+	width: 408.97px;
+	height: 549.09px;
 }
