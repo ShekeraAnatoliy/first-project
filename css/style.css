@@ -4,16 +4,16 @@
 body {
 	color: #2d2d2d;
 	font-family: "Epilogue";
+	font-weight: 600;
 }
 .container {
 	max-width: 1280px;
 	margin: auto;
-	background-color: aqua;
 }
 .header {
 	height: 80px;
 	flex: 1 1 auto;
-	padding: 25px 44px;
+	padding: 25px 0;
 	justify-content: space-between;
 	display: flex;
 	align-items: center;
@@ -22,7 +22,6 @@ body {
 .header__logo {
 	text-decoration-line: underline;
 	font-size: 20px;
-	font-weight: 600;
 }
 .header__menu {
 	display: flex;
@@ -32,38 +31,109 @@ body {
 .header__menu-link {
 	color: #2d2d2d;
 }
-
 .preview {
-	height: 720px;
+	height: calc(100vh - 80px);
+}
+.preview__container {
 	display: flex;
+	padding: 0 40px;
 	justify-content: space-between;
-	padding: 93px 114px 78px 100px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	align-items: center;
 }
 .preview__text {
 	display: flex;
 	flex-direction: column;
+	max-width: 464px;
 }
-.preview__before {
+.preview__text-before {
 	font-size: 20px;
-	font-weight: 600;
-	padding: 72px 0 46px 0;
+	margin-bottom: 46px;
 }
 h1 {
-	font-weight: 600;
 	font-size: 100px;
-	max-height: 204px;
-	max-width: 464px;
-	/*display: flex;
-	gap: 50px;*/
 }
-.preview__after {
+.preview__text-after {
 	font-weight: 400;
 	font-size: 17px;
-	padding: 50px 0 92px 0;
-	max-height: 54px;
-	max-width: 420px;
+	margin-top: 50px;
+	line-height: 27px;
 }
 .preview__img {
 	width: 408.97px;
-	height: 549.09px;
+}
+.brands {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.section {
+	margin-top: 135px;
+	text-align: center;
+}
+.section__container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.section__item {
+	max-width: 330px;
+}
+.project-item {
+	margin-top: 60px;
+	text-align: start;
+}
+.section__item-title {
+	margin: 61px 0 19px 0;
+	font-size: 27px;
+	line-height: 42px;
+}
+.project-title {
+	font-size: 20px;
+	margin: 25px 0 10px 0;
+}
+.section__item-subtitle {
+	max-width: 250px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 27px;
+	margin: auto;
+}
+.project-subtitle {
+	margin: 0;
+}
+.section__title {
+	font-size: 32px;
+	line-height: 42px;
+	text-align: center;
+}
+.clients {
+	background-color: #f3f3f3;
+	padding: 30px;
+}
+.clients__review {
+	line-height: 30px;
+	text-align: start;
+	margin: 0 0 140px 0;
+}
+.clients__subtitle {
+	max-width: 125px;
+	text-align: left;
+}
+.clients__avatar {
+	align-self: start;
+}
+.clients__stars {
+}
+.clients__body {
+	margin: 0 0 0 20px;
+}
+.clients__container {
+	display: flex;
+}
+.clients__title {
+	margin-bottom: 54px;
 }
