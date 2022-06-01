@@ -78,6 +78,7 @@ h1 {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	margin-bottom: 147px;
 }
 .section__item {
 	max-width: 330px;
@@ -136,4 +137,52 @@ h1 {
 }
 .clients__title {
 	margin-bottom: 54px;
+}
+.form {
+	display: flex;
+	justify-content: space-around;
+}
+.form__invite {
+	padding-top: 55px;
+}
+.form__invite-title {
+	font-size: 32px;
+}
+.form__invite-subtitle {
+	margin: 36px 0 56px 0;
+	max-width: 360px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 27px;
+}
+.form__invite-img {
+}
+.form__data {
+	padding-top: 55px;
+
+	font-size: 17px;
+}
+.form__data-line {
+	background-color: #f3f3f3;
+	width: 530px;
+	height: 70px;
+	margin-bottom: 18px;
+	font-weight: 400;
+	padding-left: 34px;
+}
+.form__data-message {
+	background-color: #f3f3f3;
+	width: 530px;
+	height: 215px;
+	margin-bottom: 44px;
+	font-weight: 400;
+}
+.form__data-button {
+	background: #2d2d2d;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	width: 235px;
+	height: 80px;
+	color: #ffffff;
 }
